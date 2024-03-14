@@ -4,8 +4,8 @@
   "scripts": {
     "dev": "npm run development",
     "development": "mix",
-    "watch": "npm run development -- --watch",
-    "hot": "npm run development -- --hot",
+    "watch": "npm run development watch",
+    "hot": "npm run development hot",
     "prod": "npm run production",
     "production": "mix --production"
   },
